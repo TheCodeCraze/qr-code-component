@@ -1,0 +1,42 @@
+.card {
+  width: 320px;
+  height: 497px;
+  background: var(--white);
+  padding: 16px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, 0.0477) 0 25px 25px 0;
+}
+
+.image {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+.text {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.description {
+  font-weight: 400;
+  color: var(--grayish-blue);
+  letter-spacing: 0.19px;
+}
